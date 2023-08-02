@@ -88,7 +88,7 @@ const Mainpage = () => {
         <Button
           onClick={() => setProfileToggle((prev) => !prev)}
           className={
-            "bg-grayTextLight/10 text-grayBackground/80 mb-4 lg:hidden flex items-center justify-center gap-2"
+            "bg-grayTextLight/10 !text-grayBackground/80 mb-4 lg:hidden flex items-center justify-center gap-2"
           }
         >
           <AiOutlineUser size={16} />
